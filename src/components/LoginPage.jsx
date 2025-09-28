@@ -6,7 +6,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center justify-center min-h-screen" style={{ backgroundColor: '#F3F5F7' }}>
+    <div className="flex items-center justify-center min-h-screen bg-gray-200" >
       <div className="p-8 rounded-lg shadow-lg max-w-sm w-full text-center" style={{ backgroundColor: '#FFFFFF' }}>
         
         {/* The Image Logo from the public folder */}
@@ -16,10 +16,25 @@ const LandingPage = () => {
           className="mx-auto mb-6 w-32 h-32" // Added some basic styling for size and spacing
         />
 
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">Samudra Sahayak AUTH</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-4">Samudra Sahayak</h1>
         <p className="text-gray-600 mb-6">Please log in to continue.</p>
 
         <div className="space-y-4">
+          <div className='w-full max-w-sm'>
+            <label for = "role" className='block text-sm font-medium text-gray-700 text-left mb-1'>
+              Select Role  
+            </label>
+            <select
+              id = "role"
+              name="role"
+              className='block w-full rounded-md border border-gray-300 bg-white py-2'>
+              <option value="">Select Role</option>
+              <option value="">Admin</option>
+              <option value="">Analyst</option>
+              <option value="">District Official</option>
+              
+            </select>           
+          </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 text-left mb-1" htmlFor="username">
               Username
