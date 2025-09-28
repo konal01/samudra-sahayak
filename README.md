@@ -8,7 +8,7 @@ A modern **React + Vite** web dashboard implementation for **Samudra Sahayak**, 
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (**18.x or newer** recommended)  
+- [Node.js](https://nodejs.org/) (**18.x or newer** recommended)
 - npm (comes with Node.js) or yarn/pnpm if you prefer
 
 ---
@@ -20,7 +20,7 @@ Follow these steps to set up the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/samudra-sahayak-dashboard.git
+git clone https://github.com/konal01/samudra-sahayak-dashboard.git
 cd samudra-sahayak-dashboard
 ```
 
@@ -108,6 +108,7 @@ samudra-sahayak-dashboard/
 
 This project is licensed under the **MIT License**.  
 Feel free to use and modify for your own projects.
+
 # 🌊 Samudra Sahayak Dashboard
 
 A modern **React + Vite** web dashboard implementation for **Samudra Sahayak**, styled with **Tailwind CSS** and featuring **Chart.js** for data visualization.
@@ -118,7 +119,7 @@ A modern **React + Vite** web dashboard implementation for **Samudra Sahayak**, 
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (**18.x or newer** recommended)  
+- [Node.js](https://nodejs.org/) (**18.x or newer** recommended)
 - npm (comes with Node.js) or yarn/pnpm if you prefer
 
 ---
